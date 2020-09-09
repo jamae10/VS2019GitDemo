@@ -7,8 +7,12 @@ namespace VS2019GitDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            double i = 567.85866;
+            int j;
+            j = (int)i;
 
-            Console.WriteLine("Jemimah");
+            Console.WriteLine(j);
+
         }
     }
 }
